@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sign Up for Twitter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="icon" href="favicon.ico">
+    <script src="main.js"></script>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .form-container{
+            max-width: 370px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .padded{
+            padding: 130px 23px 50px 23px;
+        }
+        .text-box{
+            padding: 12px;
+            box-sizing: border-box;
+            width: 370px;
+            border: 1px solid rgb(230,236,240);
+            border-radius: 3px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        button{
+            background-color: rgb(29,161,242);
+            width: 100%;
+            border-radius: 100px;
+            border: 1px solid rgb(29,161,242);
+            padding: 12px 20px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 18px;
+            line-height: 24px;
+        }
+        ::placeholder {
+            color: #aab8c2;
+            opacity: 1;
+        }
+        :-ms-input-placeholder {
+            color: #aab8c2;
+        }
+        ::-ms-input-placeholder { 
+            color: #aab8c2;
+        }
+        input:focus::-webkit-input-placeholder { color:transparent; }
+        input:focus:-moz-placeholder { color:transparent; } 
+        input:focus::-moz-placeholder { color:transparent; } 
+        input:focus:-ms-input-placeholder { color:transparent; }
+        .header{
+            font-size: 27px;
+            line-height: 32px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .form-element{
+            margin-bottom: 20px;
+        }
+        a:link{
+            text-decoration: none;
+            color: #1c94e0;
+        }
+        a:visited{
+            text-decoration: none;
+            color: #1c94e0;
+        }
+        .tnc{
+            font-size: 12px;
+            color: #657786;
+        }
+        .perso{
+            font-size: 14px;
+            line-height: 20px;
+            color: #66757f
+        }
+        .AO{
+            font-size: 14px;
+            line-height: 20px;
+        }
+        .top-nav{
+            background-image: url(navbar.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            box-sizing: border-box;
+        }
+        .padded-nav-bar{
+            max-width: 1099px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .right{
+            float: right;
+        }
+        .logo-container{
+            width: 23px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .nav-text{
+            font-size: 12px;
+            font-weight: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+            margin-right: 15px;
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif;">
+    <div>
+        <div>
+            <div class="top-nav">
+                <div class="padded-nav-bar">
+                    <div>
+                        <span style="margin-left: 50%"><img src="logo.png" alt="logo" height="23px" width="23px"></span>
+                        <span style="float: right;">
+                            <span class="nav-text">language: <b>English</b></span>
+                            <span class="nav-text">Have an account? <b><a href="https://twitter.com/login" style="color: white;">Log in</a></b></span>
+                        </span> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="padded">
+                <div class="form-container">
+                    <form>
+                        <div class="header form-element">Join Twitter today.</div>
+                        <div class="form-element"><input type="text" placeholder="Full name" class="text-box"></div>
+                        <div class="form-element"><input type="text" placeholder="Phone or Email" class="text-box"></div>
+                        <div class="form-element"><input type="password" placeholder="Password" class="text-box"></div>
+                        <div class="form-element perso"><input type="checkbox"><span>Personalize Twitter based on where you've seen Twitter content on the web. <a href="https://support.twitter.com/articles/20169421">Learn more.</a></span></div>
+                        <div class="small" style="margin-bottom: 10px;"><button>Sign up</button></div>
+                        <div class="form-element tnc">By signing up, you agree to the <a href="https://twitter.com/tos">Terms of Service</a> and <a href="https://twitter.com/privacy">Privacy Policy</a>, including <a href="https://support.twitter.com/articles/20170514">Cookie Use</a>. Others will be able to find you by email or phone number when provided.</div>
+                        <div class="form-element AO"><a href="#">Advanced options</a></div>
+                    </form>
+                 </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
